@@ -1,0 +1,29 @@
+.second-section {
+    background-color: var(--navy);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h1 {
+        text-align: center;
+        color: var(--green);
+        font-family: Ubuntu-B;
+        margin-bottom: 80px;
+    }
+
+    .owl-theme {
+        .item {
+            background-color: #FFF;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            width: 100%;
+
+            img {
+                height: 130px;
+            }
+        }
+    }
+}

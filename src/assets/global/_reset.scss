@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 20px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #013299, #395faf);
+    border-radius: 3px;
+}

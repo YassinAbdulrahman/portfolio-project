@@ -1,0 +1,159 @@
+.hero-section {
+    background-color: var(--navy);
+
+    font-family: Ubuntu-R;
+
+    .btn-cv {
+        text-decoration: none;
+
+        .cssbuttons-io-button {
+            display: flex;
+            align-items: center;
+
+            font-size: 17px;
+            color: white;
+            background: var(--green);
+            background: linear-gradient(0deg, rgba(77, 54, 208, 1) 0%, rgba(132, 116, 254, 1) 100%);
+            border: none;
+            box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+            letter-spacing: 0.05em;
+            border-radius: 20em;
+            padding: 10px 20px;
+
+            @media screen and (max-width:768px) {
+                margin: 0 auto;
+            }
+        }
+
+        .cssbuttons-io-button span {
+            padding: 0;
+            font-family: Ubuntu-M;
+            color: var(--green);
+        }
+
+        .cssbuttons-io-button svg {
+            margin-right: 8px;
+        }
+
+        .btn-cv .cssbuttons-io-button:hover {
+            box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+        }
+
+        .cssbuttons-io-button:active {
+            box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+        }
+    }
+
+
+    .row {
+        height: calc(100vh - 62px);
+    }
+
+    .left-section {
+        span {
+            color: var(--green);
+            display: inline-block;
+            padding-bottom: 15px;
+            padding-left: 5px;
+            font-size: 18px;
+        }
+
+        h2 {
+            font-family: Ubuntu-B;
+            font-size: 48px;
+            color: var(--lightest-slate);
+            letter-spacing: -0.5px;
+        }
+
+        h3 {
+            font-family: Ubuntu-B;
+            color: var(--slate);
+            font-size: 40px;
+            letter-spacing: -0.8px;
+            margin-bottom: 0;
+        }
+
+        p {
+            color: var(--slate);
+            line-height: 1.6;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .left-section {
+            span {
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 38px;
+            }
+
+            h3 {
+                font-size: 36px;
+            }
+
+            p {
+                color: var(--slate);
+                line-height: 1.6;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .right-section {
+        img {
+            width: 400px;
+            border-radius: 10px;
+        }
+    }
+
+    @media screen and (max-width:992px) {
+        .left-section {
+            text-align: center;
+        }
+
+        .right-section {
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
+
+.projects-section {
+    background-color: var(--navy);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .title {
+        text-align: center;
+        color: var(--green);
+        font-family: Ubuntu-B;
+        margin-bottom: 50px;
+
+    }
+
+    .projects {
+        .row:nth-child(even) {
+            flex-direction: row-reverse !important;
+        }
+    }
+
+    .projectlist-link {
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        font-family: Ubuntu-B;
+        color: var(--green);
+        transition: all 0.5s;
+
+        &:hover {
+            color: var(--lightest-slate);
+            transform: translateY(-5px);
+        }
+    }
+}

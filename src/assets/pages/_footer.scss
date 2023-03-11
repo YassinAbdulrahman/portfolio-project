@@ -1,0 +1,37 @@
+footer {
+    background-color: var(--navy);
+    color: #FFF;
+    font-family: Ubuntu-R;
+    padding: 80px 0;
+
+    .left-side {
+        span {
+            color: var(--green);
+            font-size: 52px;
+            font-family: Ubuntu-M;
+        }
+
+        h3 {
+            font-family: Ubuntu-M;
+            color: var(--lightest-slate);
+        }
+    }
+
+    .right-side {
+        font-size: 18px;
+        color: var(--lightest-slate);
+
+        a:nth-child(2) {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-family: Ubuntu-M;
+        }
+
+        a:last-child {
+
+            margin-left: 5px;
+
+        }
+    }
+}

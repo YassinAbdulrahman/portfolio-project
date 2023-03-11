@@ -1,0 +1,22 @@
+.navbar-container {
+    background-color: var(--navy);
+
+    a {
+        color: var(--lightest-slate);
+        font-family: Ubuntu-M;
+        font-size: 18px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+    .nav-item{
+        color: aliceblue;
+        a {
+            color: var(--lightest-slate);
+
+        }
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+        color: var(--green);
+    }
+}
