@@ -5,6 +5,7 @@ import '../assets/pages/_slider.scss'
 import Projects from '../projects/Projects';
 import { NavLink } from 'react-router-dom'
 
+
 // Src Image Is here
 import Royal from '../assets/images/Royal.jpeg';
 import movieproject from '../assets/images/movieproject.webp';
@@ -24,7 +25,7 @@ function Home() {
             <section className='hero-section'>
                 <div className="container">
                     <div className='row align-items-center'>
-                        <div className='col-lg-6 left-section'>
+                        <div className='col-lg-6 left-section' data-aos="fade-up">
                             <span>Hi there, my name is</span>
                             <h2>Yassin Alhumaidi</h2>
                             <h3>We ensure that sites meet user expectations</h3>
@@ -36,7 +37,7 @@ function Home() {
                                 </button>
                             </a>
                         </div>
-                        <div className='col-lg-6 right-section text-center'>
+                        <div className='col-lg-6 right-section text-center' data-aos="fade-down">
                             <img src={hero} alt="Yassin Alhuamidi" />
                         </div>
                     </div>
@@ -45,7 +46,7 @@ function Home() {
             <section className='second-section'>
                 <div className='container'>
                     <h1>Skills</h1>
-                    <Slider />
+                    <Slider/>
                 </div>
             </section>
             <section className='projects-section'>
