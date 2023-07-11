@@ -84,6 +84,7 @@ function Home() {
           projectAlt="tabadul Project"
           linkgithub="https://github.com/202212-GIZ-YE-FEW/Tabadul"
           githubLink="https://tabadul.vercel.app/"
+          WebsiteIcon={WebsiteIcon}
           githubIcon={githubIcon}
           webIcon={webIcon}
         />
