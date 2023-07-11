@@ -41,7 +41,8 @@ function Slider() {
         },
     };
     return (
-        <OwlCarousel className='owl-theme' {...options} data-aos="zoom-in-up">
+        <OwlCarousel className='owl-theme' {...options} data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
             <div class='item'>
                 <a href="https://reactjs.org/" target={'_blank'}><img src={reactlogo} /></a>
                 <p>React</p>
