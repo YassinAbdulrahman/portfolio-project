@@ -23,7 +23,7 @@ function Footer() {
             </a>{" "}
             <br />
             <a
-              href="https://www.linkedin.com/in/yassin-abdulrahman-8499031b3/"
+              href="https://www.linkedin.com/in/yassinalhumaidi/"
               target={"_blank"}
             >
               <img src={LinkedinIcon} alt="icon" />
