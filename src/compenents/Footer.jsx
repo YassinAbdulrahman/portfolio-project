@@ -29,9 +29,7 @@ function Footer() {
               <img src={LinkedinIcon} alt="icon" />
             </a>
             <a
-              href="www.linkedin.com/in/yassinalhumaidi
-
-"
+              href="https://github.com/YassinAbdulrahman"
               target={"_blank"}
             >
               <img src={GithubIcon} alt="icon" />
